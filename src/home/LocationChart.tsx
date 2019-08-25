@@ -72,8 +72,8 @@ const LocationChart: React.FC<Props> = ({}) => {
             }}
           >
             <CartesianGrid strokeDasharray="3 3" horizontal={false}/>
-            <XAxis dataKey="name"/>
-            <YAxis tickCount={7}/>
+            <XAxis dataKey="name" stroke="#fff"/>
+            <YAxis tickCount={7} stroke="#fff"/>
             <Tooltip/>
             <Area type="monotone" dataKey="gate" stackId="1" stroke="#01ccfe" fill="#01ccfe"/>
             <Area type="monotone" dataKey="room" stackId="1" stroke="#e54df8" fill="#e54df8"/>

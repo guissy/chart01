@@ -74,8 +74,8 @@ const FamilySchool: React.FC<Props> = ({}) => {
             }}
           >
             <CartesianGrid strokeDasharray="3 3" vertical={false}/>
-            <XAxis dataKey="name" />
-            <YAxis tickCount={7} />
+            <XAxis dataKey="name" stroke="#fff"/>
+            <YAxis tickCount={7} stroke="#fff" />
             <Tooltip />
             <Legend verticalAlign="top" formatter={val => ({ 'notice': '家校通知', 'homework': '课后作业', 'class': '班级动态', 'grow': '成长记录' } as Record<string, string>)[val]}/>
             <Line type="monotone" dataKey="notice" stroke="#e54df8" activeDot={{ r: 4 }} />

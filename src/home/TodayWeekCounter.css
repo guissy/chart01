@@ -40,9 +40,7 @@ ul.today-user-daily .user-num {
     text-align: right;
 }
 
-/**
-一周考勤正常率
- */
+/* -------- 一周考勤正常率 -------- */
 .week-normal-rate h3{
     color: #fff;
     font-size: 12px;

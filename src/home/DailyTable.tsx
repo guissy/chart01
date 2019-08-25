@@ -20,7 +20,7 @@ const tableData = Mock.mock({
 const DailyTable: React.FC<Props> = ({}) => {
   return (
     <section className="every-class-wrap">
-      <h3 className="every-class-wrap-title">一周考勤正常率</h3>
+      <h3 className="every-class-wrap-title">各班考勤统计</h3>
       <table className="every-class">
         <thead>
         <tr>

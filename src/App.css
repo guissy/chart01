@@ -1,18 +1,16 @@
 body h3,
 body h4,
-body h5{
+body h5 {
   color: #fff;
 }
+
 .App {
   background: #030b30;
   color: #fff;
 }
+
 .App * {
   box-sizing: border-box;
-}
-.App-header {
-  display: flex;
-  align-content: center;
 }
 
 .layout {
