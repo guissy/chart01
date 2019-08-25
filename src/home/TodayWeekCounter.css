@@ -1,0 +1,65 @@
+/* -------- 今日用户 -------- */
+.today-user-daily-wrap {
+    margin-left: 12px;
+    width: 402px;
+    border: 1px solid #4b6286;
+    color: #fff;
+}
+
+.today-user-daily-title {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #4b6286;
+    text-shadow: 0 0 4px #fff;
+    text-indent: 10px;
+}
+
+ul.today-user-daily {
+    width: 415px;
+    padding: 10px;
+}
+ul.today-user-daily li {
+    display: inline-flex;
+    width: 180px;
+    margin: 20px 10px 0 0;
+}
+ul.today-user-daily .user-10 {
+    margin-left: 10px;
+    display: inline-block;
+    min-width: 80px;
+}
+ul.today-user-daily .user-one {
+    width: 10px;
+}
+
+ul.today-user-daily .user-num {
+    color: #e1c97e;
+    width: 32px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/**
+一周考勤正常率
+ */
+.week-normal-rate h3{
+    color: #fff;
+    font-size: 12px;
+}
+.today-user-daily-title {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #4b6286;
+    text-shadow: 0 0 4px #fff;
+    text-indent: 10px;
+}
+
+.week-normal-rate .recharts-text.recharts-cartesian-axis-tick-value {
+    font-size: 10px;
+}
+
+.recharts-dot.recharts-line-dot {
+    text-shadow: 0 0 6px #b2dbff;
+}

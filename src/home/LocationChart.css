@@ -1,0 +1,30 @@
+.school-safe-wrap {
+    margin-left: 12px;
+    width: 427px;
+    border: 1px solid #4b6286;
+    color: #fff;
+    font-size: 12px;
+}
+
+.school-safe-title {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #4b6286;
+    text-shadow: 0 0 4px #fff;
+    text-indent: 10px;
+}
+.school-safe {
+    display: flex;
+}
+.school-safe h4{
+    padding: 10px 0 5px;
+}
+.school-safe > *:nth-child(2) {
+    flex: 1;
+}
+
+.school-safe .recharts-text.recharts-cartesian-axis-tick-value {
+    font-size: 8px;
+}
+

@@ -1,0 +1,83 @@
+/* -------- 家校互动 -------- */
+.school-parent-wrap {
+    margin-left: 15px;
+    width: 400px;
+    border: 1px solid #4b6286;
+    font-size: 10px;
+    color: #fff;
+}
+
+.school-parent ul {
+    display: flex;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.school-parent-title {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #4b6286;
+    text-shadow: 0px 0px 4px #fff;
+    text-indent: 10px;
+}
+
+.school-parent-total {
+    padding: 0;
+}
+.school-parent-total ul {
+    margin: 5px 0;
+}
+
+li.school-parent-card {
+    display: inline-block;
+    padding: 15px 0;
+    width: calc(50% - 20px);
+    border: 1px solid #2b89a8;
+    box-shadow: inset 0 0 6px #b2dbff;
+    margin: 8px;
+}
+.school-parent-card h4 {
+    padding-left: 10px;
+    color: #2b89a8;
+}
+.school-parent-card dl {
+    padding-left: 10px;
+}
+.school-parent-card .label {
+    display: inline-block;
+}
+.school-parent-card .num {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #25d8f3;
+    width: 110px;
+    text-align: right;
+    text-shadow: 0 0 6px #b2dbff;
+}
+
+
+.school-parent-chart > div {
+    display: inline-block;
+}
+.school-parent-daily h4,
+.school-parent-pie h4 {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #25d8f3;
+}
+.school-parent-daily .recharts-legend-item-text {
+    font-size: 8px;
+}
+.school-parent-daily .recharts-text.recharts-cartesian-axis-tick-value {
+    font-size: 8px;
+}
+.school-parent-daily .recharts-default-legend {
+    width: 306px;
+    margin-left: 32px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    transform: scale(0.75);
+}
+

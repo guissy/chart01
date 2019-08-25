@@ -1,0 +1,35 @@
+.school-device-wrap {
+    margin-left: 12px;
+    width: 427px;
+    border: 1px solid #4b6286;
+}
+
+.school-device-title {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #4b6286;
+    text-shadow: 0 0 4px #fff;
+    text-indent: 10px;
+}
+ul.school-device-list {
+    height: 100px;
+    padding: 20px 10px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+ul.school-device-list li{
+    display: inline-flex;
+    font-size: 12px;
+}
+ul.school-device-list li p{
+    padding-top: 10px;
+    line-height: 14px;
+    margin: 0 20px 0 5px;
+}
+ul.school-device-list li img {
+    width: 28px;
+    height: auto;
+}
+
+

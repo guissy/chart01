@@ -1,0 +1,25 @@
+.num-total ul {
+    display: flex;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+.num-card-vertical {
+    padding: 10px 0;
+    width: 130px;
+    border: 1px solid #2b89a8;
+    box-shadow: inset 0 0 6px #b2dbff;
+    text-align: center;
+}
+.num-card-vertical:not(:last-child) {
+    margin-right: 6px;
+}
+.num-card-vertical .label {
+    display: block;
+}
+.num-card-vertical .num {
+    display: block;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #25d8f3;
+    text-shadow: 0 0 6px #b2dbff;
+}

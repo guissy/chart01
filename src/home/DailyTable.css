@@ -1,0 +1,39 @@
+/* -------- 一周考勤正常率 -------- */
+.every-class-wrap {
+    margin-left: 12px;
+    width: 402px;
+    border: 1px solid #4b6286;
+    color: #fff;
+}
+
+.every-class-wrap-title {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #4b6286;
+    text-shadow: 0px 0px 4px #fff;
+    text-indent: 10px;
+}
+
+table.every-class {
+    width: 400px;
+    text-align: center;
+}
+table.every-class th {
+    color: #2b89a8;
+    line-height: 36px;
+}
+table.every-class .grade-name {
+    color: #fff;
+}
+table.every-class .grade-rate {
+    color: #e1c97e;
+}
+table.every-class tbody td {
+    color: #13cdaf;
+    line-height: 36px;
+}
+table.every-class tbody tr:nth-child(odd) {
+    background: #071f55;
+}
+

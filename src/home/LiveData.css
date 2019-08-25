@@ -1,0 +1,53 @@
+/* -------- 实时数据 -------- */
+.live-event-title {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #4b6286;
+    text-shadow: 0px 0px 4px #fff;
+    text-indent: 10px;
+}
+
+.live-event-wrap {
+    margin-left: 15px;
+}
+ul.live-event {
+    height: 240px;
+    overflow: scroll;
+    position: relative;
+    border: 1px solid #4b6286;
+}
+ul.live-event::after {
+    display: block;
+    position: sticky;
+    bottom: 0;
+    content: ' ';
+    width: 100%;
+    height: 35px;
+    background-image: linear-gradient(rgba(5, 6, 30, 0.1) 0%, rgba(5, 6, 30, 0.95) 100%);
+    pointer-events: none;
+}
+ul.live-event > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 10px;
+}
+ul.live-event .title {
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+ul.live-event .title > h4 {
+    color: #25d8f3;
+}
+ul.live-event .title > h5 {
+    font-size: 12px;
+    color: #25d8f3;
+}
+.avatar {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 34px;
+}

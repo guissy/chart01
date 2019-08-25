@@ -1,0 +1,30 @@
+.App-header-time {
+    margin-left: 15px;
+    width: 268px;
+    font-size: 14px;
+}
+.App-header-week {
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 50px;
+}
+.App-header-now {
+}
+.App-header-title {
+    flex: 1;
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+    color: #cbf6fe;
+    font-size: 30px;
+    text-shadow: 0 0 4px #b2dbff;
+}
+.App-header-weather {
+    line-height: 50px;
+    width: 268px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.App-header-weather-text {
+    padding-right: 10px;
+}
