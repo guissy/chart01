@@ -68,7 +68,7 @@ const TodayWeekCounter: React.FC<Props> = ({}) => {
       </ul>
       <div className="week-normal-rate">
         <h3>一周考勤正常率</h3>
-        <LineChart width={410} height={150} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+        <LineChart width={410} height={130} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
           <CartesianGrid stroke="#31487a" strokeDasharray="5 0" vertical={false}/>
           <Line type="monotone" dataKey="rate" stroke="#fff" strokeWidth={2} opacity={0.3}/>
           <Line type="monotone" dataKey="rate" stroke="#fff" strokeWidth={4} opacity={0.15}/>
