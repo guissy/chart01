@@ -1,6 +1,7 @@
 import React from 'react';
 import Dayjs from 'dayjs';
 import './TitleBar.css';
+import clock from '../assets/clock.png';
 
 interface Props {
 }
@@ -9,6 +10,7 @@ const TitleBar: React.FC<Props> = ({}) => {
   return (
     <header className="App-header">
         <span className="App-header-time">
+          <img className="App-header-clock" src={clock}/>
           <span className="App-header-week">{Dayjs(Date.now()).format('dddd')}</span>
           <time className="App-header-now">{Dayjs(Date.now()).format('YYYY/MM/DD hh:mm')}</time>
         </span>
