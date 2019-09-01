@@ -1,5 +1,6 @@
 .arc-box {
-    position: relative;
+    position: absolute;
+    width: 100%;
 }
 .arc-box .arc-wrap {
     position: absolute;
@@ -50,4 +51,18 @@
     top: 40px;
     left: 40px;
     transform-origin: -49px 0;
+}
+
+.arc-box img {
+    position: absolute;
+    top: 52px;
+    width: 265px;
+}
+
+.arc-box img.right {
+    position: absolute;
+    top: 52px;
+    right: 0;
+    width: 265px;
+    transform: scaleX(-1);
 }
