@@ -1,0 +1,53 @@
+.arc-box {
+    position: relative;
+}
+.arc-box .arc-wrap {
+    position: absolute;
+    left: 150px;
+    top: -60px;
+}
+.arc-box .arc1,
+.arc-box .arc2,
+.arc-box .arc3,
+.arc-box .arc4,
+.arc-box .arc5
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #315575;
+    border-radius: 50%;
+}
+.arc-box .arc1 {
+    width: 52px;
+    height: 52px;
+    top: 14px;
+    left: 14px;
+}
+.arc-box .arc2 {
+    width: 66px;
+    height: 66px;
+    top: 7px;
+    left: 7px;
+}
+.arc-box .arc4 {
+    width: 110px;
+    height: 110px;
+    top: -15px;
+    left: -15px;
+}
+.arc-box .arc5 {
+    width: 148px;
+    height: 148px;
+    top: -34px;
+    left: -34px;
+}
+.arc-box .rect1 {
+    position: absolute;
+    width: 14px;
+    height: 5px;
+    border: 1px solid #315575;
+    top: 40px;
+    left: 40px;
+    transform-origin: -49px 0;
+}
