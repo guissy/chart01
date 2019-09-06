@@ -31,7 +31,7 @@ const SchoolDevice: React.FC<Props> = ({}) => {
           </li>
         ))}
       </ul>
-      <section style={{ background: 'radial-gradient(#1b4b9d, #0d2750)' }}>
+      <section>
         <Earth/>
       </section>
     </div>
