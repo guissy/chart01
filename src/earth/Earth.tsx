@@ -11,7 +11,6 @@ const Earth: React.FC<Props> = ({}) => {
       <>
         <style>{`
 .globe {
-    // border-top: 1px solid #90ddff;
     border-bottom: transparent;
     border-image-slice: 1;
     border-radius: 50%;
@@ -71,6 +70,7 @@ const Earth: React.FC<Props> = ({}) => {
             transform: 'scale(1.15)'}}/>
           <TripleLightButton text="校园访问人次" value="100000" style={{top: '188px', left: '50px'}}/>
           <TripleLightButton text="平台访问人次" value="100000" style={{top: '188px', left: '300px'}}/>
+          {/** 地球svg + css border-radius */}
           <div className="globe">
             <svg width={547} height={140} viewBox="0 0 547 140" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -78,6 +78,8 @@ const Earth: React.FC<Props> = ({}) => {
                 stroke="#3ec1f833" strokeWidth={0.5} fill="#5bbce80f" fillRule="evenodd"
               />
             </svg>
+            {/** line 由canvas的贝塞尔曲线接口ctx.quadraticCurveTo画弧 */}
+            {/** dot 发光效果动画由 css animation 延时动画完成 transform opacity 变化 */}
             <Light />
           </div>
         </div>
