@@ -3,6 +3,7 @@ import phone from '../assets/phone.png';
 import Earth from '../earth/Earth';
 import Mock from 'mockjs';
 import './SchoolDevice.css';
+import NiceLine from '../bg/NiceLine';
 
 interface Props {
 }

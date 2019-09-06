@@ -3,6 +3,7 @@ import bg from './bg.png';
 import Light from './Light';
 import DoubleLightButton from './DoubleLightButton';
 import TripleLightButton from './TripleLightButton';
+import NiceLine from '../bg/NiceLine';
 interface Props {
 }
 
@@ -82,6 +83,7 @@ const Earth: React.FC<Props> = ({}) => {
             {/** dot 发光效果动画由 css animation 延时动画完成 transform opacity 变化 */}
             <Light />
           </div>
+          <NiceLine />
         </div>
 
       </>
