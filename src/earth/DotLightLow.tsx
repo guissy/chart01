@@ -1,10 +1,10 @@
 import React from 'react';
 
 interface Props extends React.AllHTMLAttributes<HTMLDivElement> {
-  delay: number;
+  delay?: number;
 }
 
-const DotLightLow: React.FC<Props> = ({delay, ...props}) => {
+const DotLightLow: React.FC<Props> = ({delay=0, ...props}) => {
   return (
       <>
         <style>{`
