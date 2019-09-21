@@ -4,15 +4,13 @@ import './TitleBar.css';
 import clock from '../assets/clock.png';
 import CircleArc from '../bg/CircleArc';
 
-interface Props {
-}
 
-const TitleBar: React.FC<Props> = ({}) => {
+const TitleBar: React.FC = () => {
   return (
     <header className="App-header">
         <CircleArc />
         <span className="App-header-time">
-          <img className="App-header-clock" src={clock}/>
+          <img className="App-header-clock" src={clock} alt="clock"/>
           <span className="App-header-week">{Dayjs(Date.now()).format('dddd')}</span>
           <time className="App-header-now">{Dayjs(Date.now()).format('YYYY/MM/DD hh:mm')}</time>
         </span>

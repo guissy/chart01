@@ -3,8 +3,6 @@ import { Area, AreaChart, CartesianGrid, Legend, Pie, PieChart, Tooltip, XAxis, 
 import Mock from 'mockjs';
 import './LocationChart.css';
 
-interface Props {
-}
 const hours = Mock.Random.range(4, 24, 4) as any as number[];
 
 const studentTeacherParent = [
@@ -29,7 +27,7 @@ data2.unshift({
   lib: 0,
 })
 
-const LocationChart: React.FC<Props> = ({}) => {
+const LocationChart: React.FC = () => {
   return (
     <section className="school-safe-wrap">
       <h3 className="school-safe-title">校园安全数据</h3>

@@ -2,9 +2,6 @@ import React from 'react';
 import Mock from 'mockjs';
 import './DailyTable.css';
 
-interface Props {
-}
-
 const tableData = Mock.mock({
   'data|5': [{
     'name': '5(' + Mock.Random.integer(1, 5) + ')班',
@@ -17,7 +14,7 @@ const tableData = Mock.mock({
 }).data as any as any[];
 
 
-const DailyTable: React.FC<Props> = ({}) => {
+const DailyTable: React.FC = () => {
   return (
     <section className="every-class-wrap">
       <h3 className="every-class-wrap-title">各班考勤统计</h3>

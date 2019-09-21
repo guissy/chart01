@@ -3,10 +3,6 @@ import phone from '../assets/phone.png';
 import Earth from '../earth/Earth';
 import Mock from 'mockjs';
 import './SchoolDevice.css';
-import NiceLine from '../bg/NiceLine';
-
-interface Props {
-}
 
 const data6 = Mock.mock({
   'data|6': [{
@@ -15,7 +11,7 @@ const data6 = Mock.mock({
   }]
 }).data as any as any[];
 
-const SchoolDevice: React.FC<Props> = ({}) => {
+const SchoolDevice: React.FC = () => {
   return (
     <div className="school-device-wrap">
       <h3 className="school-device-title">校园设备</h3>

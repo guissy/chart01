@@ -4,9 +4,6 @@ import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts'
 import Mock from 'mockjs';
 import './TodayWeekCounter.css'
 
-interface Props {
-}
-
 const data = Mock.mock({
   'data|7': [{
     'rate|60-99': 1,
@@ -15,7 +12,7 @@ const data = Mock.mock({
   }]
 }).data;
 
-const TodayWeekCounter: React.FC<Props> = ({}) => {
+const TodayWeekCounter: React.FC = () => {
   return (
     <section className="today-user-daily-wrap">
       <h2 className="today-user-daily-title">今日考勤情况</h2>
@@ -24,7 +21,7 @@ const TodayWeekCounter: React.FC<Props> = ({}) => {
           <span className="label">出勤人数</span>
           <div className="user-10">
             {[1, 2, 3, 4, 5, 6].map(v => (
-              <img key={v} src={user} className="user-one"/>
+              <img key={v} src={user} className="user-one" alt="user" />
             ))}
           </div>
           <span className="user-num">153</span>
@@ -33,7 +30,7 @@ const TodayWeekCounter: React.FC<Props> = ({}) => {
           <span className="label">迟到人数</span>
           <div className="user-10">
             {[1, 2, 3, 4, 5].map(v => (
-              <img key={v} src={user} className="user-one"/>
+              <img key={v} src={user} className="user-one" alt="user"/>
             ))}
           </div>
           <span className="user-num">23</span>
@@ -42,7 +39,7 @@ const TodayWeekCounter: React.FC<Props> = ({}) => {
           <span className="label">缺勤人数</span>
           <div className="user-10">
             {[1, 2, 3, 4, 5].map(v => (
-              <img key={v} src={user} className="user-one"/>
+              <img key={v} src={user} className="user-one" alt="user"/>
             ))}
           </div>
           <span className="user-num">21</span>
@@ -51,7 +48,7 @@ const TodayWeekCounter: React.FC<Props> = ({}) => {
           <span className="label">请假人数</span>
           <div className="user-10">
             {[1, 2, 3, 4].map(v => (
-              <img key={v} src={user} className="user-one"/>
+              <img key={v} src={user} className="user-one" alt="user"/>
             ))}
           </div>
           <span className="user-num">23</span>
@@ -60,7 +57,7 @@ const TodayWeekCounter: React.FC<Props> = ({}) => {
           <span className="label">早退人数</span>
           <div className="user-10">
             {[1, 2, 3, 4].map(v => (
-              <img key={v} src={user} className="user-one"/>
+              <img key={v} src={user} className="user-one" alt="user"/>
             ))}
           </div>
           <span className="user-num">14</span>

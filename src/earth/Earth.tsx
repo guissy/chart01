@@ -4,10 +4,9 @@ import Light from './Light';
 import DoubleLightButton from './DoubleLightButton';
 import TripleLightButton from './TripleLightButton';
 import NiceLine from '../bg/NiceLine';
-interface Props {
-}
 
-const Earth: React.FC<Props> = ({}) => {
+
+const Earth: React.FC = () => {
   return (
       <>
         <style>{`

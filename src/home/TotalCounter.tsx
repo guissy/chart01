@@ -1,10 +1,7 @@
 import React from 'react';
 import './TotalCounter.css';
 
-interface Props {
-}
-
-const TotalCounter: React.FC<Props> = ({}) => {
+const TotalCounter: React.FC = () => {
   return (
     <section className="num-total">
       <ul>

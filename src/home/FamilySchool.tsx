@@ -3,8 +3,6 @@ import { CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, 
 import Mock from 'mockjs';
 import './FamilySchool.css';
 
-interface Props {
-}
 const hours = Mock.Random.range(4, 24, 4) as any as number[];
 const data3 = Mock.mock({
   'data|6': [{
@@ -22,7 +20,7 @@ const data4 = [
   {name: 'grow', value: Mock.Random.integer(1, 99), fill: "#e1c97e"},
 ];
 
-const FamilySchool: React.FC<Props> = ({}) => {
+const FamilySchool: React.FC = () => {
   return (
     <section className="school-parent-wrap">
       <section className="school-parent-total">
